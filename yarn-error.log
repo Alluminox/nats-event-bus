@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add node-nats-wrapper
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Cmder;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\allum\AppData\Local\Microsoft\WindowsApps;C:\Users\allum\AppData\Roaming\npm;C:\Users\allum\AppData\Local\Yarn\bin;C:\Users\allum\AppData\Local\Programs\Microsoft VS Code\bin;f0f9b83f9c42bb4f9f4e919b9310b9ceff4c5df0;C:\Users\allum\AppData\Local\Android\Sdk;C:\Users\allum\AppData\Local\Android\Sdk\tools;C:\Users\allum\AppData\Local\Android\Sdk\platform-tools;C:\Users\allum\AppData\Local\Android\Sdk;C:\Gradle\gradle-6.5\bin;
+
+Yarn version: 
+  1.22.1
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/node-nats-wrapper: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66091:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140743:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141715:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141637:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "nats-event-bus",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
