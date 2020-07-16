@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Publisher = void 0;
+exports["default"] = void 0;
 
 var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
 
@@ -71,5 +71,6 @@ var PublisherEvent = /*#__PURE__*/function (_Event) {
   return PublisherEvent;
 }(_event["default"]);
 
-var Publisher = (0, _eventFactory["default"])(PublisherEvent);
-exports.Publisher = Publisher;
+var _default = (0, _eventFactory["default"])(PublisherEvent);
+
+exports["default"] = _default;

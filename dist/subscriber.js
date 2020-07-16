@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Subscriber = void 0;
+exports["default"] = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -98,5 +98,6 @@ var SubscriberEvent = /*#__PURE__*/function (_Event) {
   return SubscriberEvent;
 }(_event["default"]);
 
-var Subscriber = (0, _eventFactory["default"])(SubscriberEvent);
-exports.Subscriber = Subscriber;
+var _default = (0, _eventFactory["default"])(SubscriberEvent);
+
+exports["default"] = _default;
